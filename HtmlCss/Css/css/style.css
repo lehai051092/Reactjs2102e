@@ -1,0 +1,64 @@
+body {
+    background-color: #dedede;
+}
+
+p {
+    margin: 0;
+}
+
+.block {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #FFFF00;
+    position: relative;
+}
+
+.content {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    background-color: #ffffff;
+    animation:  action 10s 2;
+}
+
+@keyframes action {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 50%;
+        left: 25%;
+    }
+
+    50% {
+        top: 0;
+        left: 50%;
+    }
+
+    75% {
+        top: 50%;
+        left: 100%;
+    }
+
+    100% {
+        top: 0;
+        right: 0;
+        left: unset;
+    }
+}
+
+@media only all and (max-width: 767px) {
+    .block {
+        background-color: #bf0404;
+    }
+}
+
+@media only all and (min-width: 768px) {
+    .block {
+        background-color: #008888;
+    }
+}

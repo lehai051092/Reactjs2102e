@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css</title>
+    <!-- External -->
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- Internal -->
+    <style>
+        h2 {
+            color: yellow;
+        }
+
+        p {
+            color: cadetblue;
+        }
+
+        #p2 {
+            color: chocolate;
+        }
+
+        .item {
+            color: darkgoldenrod;
+        }
+
+        p.item {
+            color: cornflowerblue;
+        }
+
+        .big-size {
+            font-size: 33px;
+        }
+
+        article h2 {
+            color: blue;
+        }
+
+        .reactjs h2 {
+            color: violet;
+        }
+
+        .reactjs div h2 {
+            color: black;
+        }
+
+        article > p {
+            color: brown;
+        }
+
+        .fake > p {
+            color: darkgray;
+        }
+
+        .green-color {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <!-- Inline -->
+    <h2 style="color: red">Hello Class</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at autem cum, deserunt dolore excepturi
+        incidunt inventore magnam minima quam quidem quos rem, saepe sed sequi temporibus tenetur vitae voluptatum.</p>
+
+    <h2 class="item">Class 2</h2>
+    <p id="p1" class="item big-size">P1</p>
+    <p id="p2" class="item">P2</p>
+    <p class="item">P3</p>
+
+    <article class="reactjs">
+        <h2>ReactJS</h2>
+        <div>
+            <h2>Child ReactJS</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet architecto asperiores assumenda, atque
+            dignissimos, fugiat fugit illo incidunt iure laborum laudantium libero mollitia, nam quae recusandae sed
+            sequi voluptates!</p>
+    </article>
+    <article class="fake">
+        <h2>Fake</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus illo odio vitae voluptates.
+            Accusantium alias atque culpa dolores dolorum enim, eveniet ipsum libero nobis quae, repellendus sed, vero
+            voluptatibus.</p>
+    </article>
+
+    <!-- Priority -->
+    <p id="para1" class="green-color">Paragraph</p>
+
+    <p id="point-1" class="this is class value p1">P1</p>
+    <p id="point-2" class="this is class value-p2">P2</p>
+    <p id="point-3" class="this-is class-value-p3">P3</p>
+</section>
+</body>
+</html>

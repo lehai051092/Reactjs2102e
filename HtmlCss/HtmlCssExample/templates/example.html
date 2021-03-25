@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Example</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="../index.html">Back to Home</a>
+    </nav>
+</header>
+<section class="example">
+    <form action="/login.php" method="post" class="example-form">
+        <label>
+            Username <input type="text" name="name" placeholder="Enter Name">
+        </label>
+        <label>
+            Email <input type="email" name="email" placeholder="Enter Email">
+        </label>
+        <label>
+            Password <input type="password" name="password" placeholder="Enter Password">
+        </label>
+        <label>
+            Age <input type="number" name="age" min="0" max="100">
+        </label>
+        <label for="month">Month </label><select name="month" id="month">
+        <option value="">Please Select Option</option>
+        <optgroup label="Group 1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </optgroup>
+        <optgroup label="Group 2">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </optgroup>
+    </select>
+        <input type="radio" value="1" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" value="0" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="checkbox" id="policy" name="policy">
+        <label for="policy">I agree with your policies</label>
+
+        <input type="submit" value="Login">
+    </form>
+    <!-- audio, graphic, video -->
+    <audio controls autoplay src=""></audio>
+    <video controls autoplay src=""></video>
+    <iframe src="" frameborder="0" width="600" height="300" allowfullscreen></iframe>
+    <svg></svg>
+    <canvas></canvas>
+</section>
+</body>
+</html>

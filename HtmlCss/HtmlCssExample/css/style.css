@@ -1,0 +1,299 @@
+body {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: unset;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+}
+
+.menu-item {
+    margin: 0 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.request {
+    font-weight: 600;
+}
+
+.poems h1 {
+    color: #006600;
+}
+
+.poems h2 {
+    color: #0000FF;
+}
+
+.poems h3 {
+    color: #FF3399;
+    background-color: #FECFFD;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.poems .content {
+    background-color: #FFFFCC;
+}
+
+.poems .content p {
+    margin: 0;
+}
+
+.poems hr {
+    max-width: 155px;
+    margin: 10px auto;
+}
+
+.poems .stanza-1 {
+    color: #0000FF;
+}
+
+.poems .stanza-2 {
+    color: #FF0000;
+}
+
+.poems .stanza-3 {
+    color: #006600;
+}
+
+.travel-china-container {
+    color: #FFFFFF;
+    background: #A06D21 url("../images/background/travel-china.jpg") no-repeat center fixed;
+}
+
+.travel-china {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.travel-china h2 {
+    color: #FFCC00;
+    text-decoration: none;
+}
+
+.travel-china .content {
+    text-align: left;
+}
+
+.pattaya-container {
+    background-image: url("../images/background/pattaya.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #339999;
+}
+
+.pattaya h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.pattaya p:first-child {
+    background-color: #008888;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.pattaya .content {
+    text-align: left;
+}
+
+.math h2 {
+    text-align: center;
+    color: #006600;
+}
+
+.math li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.math span {
+    color: #FF0000;
+}
+
+.math pre {
+    background-color: #CCCCCC;
+}
+
+.shanghai h2,
+.shanghai strong,
+.shanghai span {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.shanghai h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px double #FF0000;
+}
+
+.shanghai h2 p {
+    margin: 0;
+}
+
+.shanghai article p:not(:first-child) {
+    text-align: right;
+}
+
+.shanghai i {
+    background-color: #FFFF00;
+}
+
+.shanghai strong {
+    font-size: 30px;
+}
+
+.shanghai-harbour {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.fresh-flower h2 {
+    text-align: center;
+    color: #FF0000;
+    font-size: 30px;
+    text-decoration: unset;
+}
+
+.fresh-flower article {
+    display: flex;
+}
+
+.food-hn div,
+.fresh-flower div {
+    flex-grow: 1;
+}
+
+.fresh-flower img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.fresh-flower strong {
+    padding-left: 25px;
+    letter-spacing: 1px;
+}
+
+.fresh-flower span {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+
+.fresh-flower ul {
+    margin-left: 25px;
+}
+
+.fresh-flower li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.fresh-flower .introduce ul {
+    list-style: square;
+}
+
+.fresh-flower .contact ul {
+    list-style: circle;
+}
+
+.food-hn h2 {
+    text-align: center;
+    text-decoration: unset;
+    color: #fab021;
+    font-size: 30px;
+}
+
+.food-hn article {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.food-hn table,
+.food-hn td,
+.food-hn th {
+    border: 1px solid darkviolet;
+}
+
+.food-hn table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.food-hn th {
+    color: #FFFFFF;
+    background-color: #CC6600;
+}
+
+.food-hn .color-tr {
+    background-color: #FFEDCA;
+}
+
+.programming-industry {
+    font-family: Tahoma, sans-serif;
+}
+
+.programming-industry table,
+.programming-industry td,
+.programming-industry th {
+    border: 1px solid #FF0000;
+}
+
+.programming-industry table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.programming-industry th {
+    background-color: #bf0404;
+    color: #FFFFFF;
+}
+
+.text-red {
+    color: #FF0000;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-title {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: unset;
+}
