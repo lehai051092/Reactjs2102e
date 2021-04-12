@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    background-color: #cccccc;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.color-list {
+    display: flex;
+    max-width: 360px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: #cccccc;
+    align-items: center;
+}
+
+.color-item {
+    flex: 1;
+}
+
+.color-item .pick-color {
+    display: inline-block;
+    color: #fff;
+    margin: 0 5px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.color-item .red {
+    background-color: #ff0000;
+}
+
+.color-item .blue {
+    background-color: #0000ff;
+}
+
+.color-item .brown {
+    background-color: #a52a2a;
+}
+
+.color-item .lavender {
+    background-color: #e6e6fa;
+}
+
+.color-item .pick-color:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
