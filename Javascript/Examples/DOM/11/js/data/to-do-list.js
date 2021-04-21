@@ -9,7 +9,7 @@ export default class CrudToDoList {
             {id: 6, title: "Đi du lịch vòng quanh thế giới", status: 0},
         ];
 
-        this.showToDoList = () => {
+        this.showToDoList = function () {
             let toDoList = this.options;
             let tdlBottom = document.getElementById('tdl-bottom');
             let html = "<ul class='tdl-items'>";
@@ -28,7 +28,7 @@ export default class CrudToDoList {
             tdlBottom.innerHTML = html;
         }
 
-        this.deleteTitleById = () => {
+        this.deleteTitleById = function () {
             let btnDelete = document.querySelectorAll('.tdl-delete');
 
             btnDelete.forEach((item, index) => {
